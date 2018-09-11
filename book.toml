@@ -1,0 +1,5 @@
+[book]
+authors = ["Oslint"]
+multilingual = false
+src = "src"
+title = "Django 튜토리얼"
