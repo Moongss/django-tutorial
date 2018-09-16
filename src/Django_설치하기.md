@@ -10,7 +10,7 @@ Table 1-1: 각 운영 체제별 홈 디렉토리 위치
 
 | 운영 체제 |    홈 디렉토리 위치    |
 | --------- | ---------------------- |
-| Linux     | `/home/<username>/`     |
+| Linux     | `/home/<username>/`    |
 | macOS     | `/Users/<username>/`   |
 | Windows   | `C:\Users\<username>\` |
 
