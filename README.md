@@ -1,18 +1,18 @@
 # Django 튜토리얼
 
-Django 튜토리얼 책의 소스 레포지토리입니다. 책을 읽고 싶으시다면 [이 곳](https://oslint.github.io/books/DjangoTutorial)으로 가주세요.
+Django 튜토리얼 책의 소스 레포지토리입니다. 책을 읽고 싶으시다면 [이곳](https://oslint.github.io/books/DjangoTutorial)으로 가주세요.
 
 ## 빌드
 
 ### 요구 사항
 
-이 책을 빌드하는데에는 최소 v0.0.13 버전 이상의 [mdBook](https://github.com/rust-lang-nursery/mdBook)이 필요합니다. (v0.2.0 이상을 권장합니다.)
+이 책을 빌드하는 데에는 최소 v0.0.13 버전 이상의 [mdBook](https://github.com/rust-lang-nursery/mdBook)이 필요합니다. (v0.2.0 이상을 권장합니다.)
 
 mdBook을 설치하는 방법은 [mdBook 레포지토리에 README.md의 Installation 문단](https://github.com/rust-lang-nursery/mdBook/blob/master/README.md#installation)에 나와 있습니다.
 
 ### 빌드하는 법
 
-이 책을 빌드할려면 우선 `cd`를 이용해 DjangoTutorial의 최상위 디렉토리로 이동합니다. 그 후 다음의 명령어를 입력하세요.
+이 책을 빌드하려면 우선 `cd`를 이용해 DjangoTutorial의 최상위 디렉토리로 이동합니다. 그 후 다음의 명령어를 입력하세요.
 
 ```bash
 mdbook build
