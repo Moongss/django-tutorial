@@ -23,19 +23,19 @@ mdbook build
 - *[Firefox](https://mozilla.org/firefox/new/)*
 
 ```bash
-firefox book/index.html                                        # Linux
-open -a "Firefox" book/index.html                       # macOS
+firefox book/index.html                       # Linux
+open -a "Firefox" book/index.html             # macOS
 Start-Process "firefox.exe" .\book\index.html # Windows(PowerShell)
-start firefox.exe .\book\index.html                  # Windows(cmd.exe)
+start firefox.exe .\book\index.html           # Windows(cmd.exe)
 ```
 
 - *[Chrome](https://www.google.com/chrome/)*
 
 ``` bash
-google-chrome book/index.html                            # Linux
-open -a "Google Chrome" book/index.html          # macOS
+google-chrome book/index.html                # Linux
+open -a "Google Chrome" book/index.html      # macOS
 Start-Process "chrome.exe" .\book\index.html # Windows(PowerShell)
-start chrome.exe .\book\index.html                  # Windows(cmd.exe)
+start chrome.exe .\book\index.html           # Windows(cmd.exe)
 ```
 
 ## 라이선스
