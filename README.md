@@ -18,7 +18,7 @@ mdBook을 설치하는 방법은 [mdBook 레포지토리에 README.md의 Install
 mdbook build
 ```
 
-빌드 된 출력물은 최상위 디렉토리 아래에 새로 생성된 `book` 디렉토리에 있습니다. 확인하려면 웹 브라우저에서 열어보세요.
+빌드된 출력물은 최상위 디렉토리 아래에 새로 생성된 `book` 디렉토리에 있습니다. 확인하려면 웹 브라우저에서 열어보세요.
 
 - *[Firefox](https://mozilla.org/firefox/new/)*
 
