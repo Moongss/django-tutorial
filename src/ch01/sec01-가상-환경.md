@@ -20,13 +20,13 @@
 | macOS     | `/Users/<username>/`   |
 | Windows   | `C:\Users\<username>\` |
 
-> 참고: Windows에서는 반드시 가상 환경을 생성할 경로명에 특수 문자가 들어가지 않도록 하세요. 만약 `<username>`에 특수 문자가 들어간다면 다른 디렉토리를 사용하세요. (예: `C:\djangotutorial`)
-
 이 책에서는 홈 디렉토리 아래에 `djangotutorial`이라는 이름의 디렉토리를 새로 만들어 사용하도록 하겠습니다. (디렉토리명은 여러분의 마음대로 작명하셔도 되지만 알파벳 소문자로만 이루어지게 해주세요.)
 
+> 참고: Windows에서는 반드시 가상 환경을 생성할 경로명에 특수 문자가 들어가지 않도록 하세요. 만약 `<username>`에 특수 문자가 들어간다면 다른 디렉토리를 사용하세요. (예: `C:\djangotutorial`)
+
 ``` bash
-mkdir djangotutorial
-cd djangotutorial
+[~]$ mkdir djangotutorial
+[~]$ cd djangotutorial
 ```
 
 ### Venv를 이용하여 가상 환경 생성하기
@@ -38,7 +38,7 @@ cd djangotutorial
 그럼 이제 가상 환경을 만들어보도록 하겠습니다. 다음 명령어를 콘솔에 입력하세요.
 
 ``` bash
-python -m venv <venv>
+[~/djangotutorial]$ python -m venv <venv>
 ```
 
 입력을 완료했다면 여러분이 작명한 이름의 디렉토리가 만들어졌을 거예요. 그 디렉토리에는 우리가 사용할 가상 환경이 포함되어 있습니다! (기본적인 디렉토리와 파일들이 들어있습니다.)
