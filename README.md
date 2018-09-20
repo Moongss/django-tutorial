@@ -24,7 +24,7 @@ mdbook build
 
 ```bash
 firefox book/index.html                       # Linux
-open -a "Firefox" book/index.html            # macOS
+open -a "Firefox" book/index.html             # macOS
 Start-Process "firefox.exe" .\book\index.html # Windows(PowerShell)
 start firefox.exe .\book\index.html           # Windows(cmd.exe)
 ```
