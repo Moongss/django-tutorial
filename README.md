@@ -1,6 +1,7 @@
 # Django 튜토리얼
 
-Django 튜토리얼 책의 소스 레포지토리입니다. 책을 읽고 싶으시다면 [이곳](https://oslint.github.io/books/django-tutorial)으로 가주세요.
+Django 튜토리얼 책의 소스 레포지토리입니다.
+책을 읽고 싶으시다면 [이곳](https://oslint.github.io/books/django-tutorial)으로 가주세요.
 
 ## 빌드
 
@@ -37,6 +38,42 @@ open -a "Google Chrome" book/index.html      # macOS
 Start-Process "chrome.exe" .\book\index.html # Windows(PowerShell)
 start chrome.exe .\book\index.html           # Windows(cmd.exe)
 ```
+
+## 번역
+
+### 작업 방식
+
+<https://tutorial.djangogirls.org/en/> 를 기준으로 하며, 내용 구조의 변화를 주었습니다.
+
+새 구조는 `src` 폴더 내의 `SUMMARY_future` 에 작성되어 있으며,
+이 구조를 참고하여 작업하시면 됩니다.
+
+문서 구조 (chapter, section) 는 다음과 같이 번역해 주시기 바랍니다.
+
+- chapter: 장, 챕터
+- section: 절, 구간
+
+마지막으로, 다른 작업자들을 배려해 가급적 한 줄의 길이가 100 을 넘어가지 않도록
+적절히 줄바꿈을 해 주시길 바랍니다. (Markdown의 문법이 깨질 경우는 예외)
+
+### 번역 용어
+
+번역하기 애매할 경우 무리하게 번역하지 않고 원어를 그대로 사용하며,
+아래 정리되어 있는 용어 또한 문체에 맞게 변형해야 할 경우
+의미에 혼동이 없는 범위 내에서 어느정도의 변형이 가능합니다.
+
+만약 기존에 없던 새로운 단어가 나타날 경우, 처음 나타날 때 괄호를 이용해
+원어를 적어주시기 바랍니다. (가상 환경(virtualenv) 은 ~)
+
+#### 번역 용어 정리 (abc 순)
+
+여러개가 있는 경우 가급적 앞 순서의 용어를 이용합니다.
+
+- command line: 명령 창
+- directory: 디렉토리
+- django: 장고
+- python: 파이썬
+- virtualvenv: 가상 환경
 
 ## 라이선스
 
