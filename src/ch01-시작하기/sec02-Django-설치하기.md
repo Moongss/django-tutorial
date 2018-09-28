@@ -33,7 +33,7 @@ Django~=2.0.6
 이제 준비는 끝났으니 장고를 설치해 봐요. `pip install -r requirements.txt` 를 실행해 주세요.
 
 ``` bash
-(myvenv) ~$ pip install -r requirements.txt
+(<venv>) ~$ pip install -r requirements.txt
 Collecting Django~=2.0.6 (from -r requirements.txt (line 1))
   Downloading Django-2.0.6-py3-none-any.whl (7.1MB)
 Installing collected packages: Django
@@ -55,7 +55,7 @@ Successfully installed Django-2.0.6
 앞의 명령어 대신 다음 명령어을 이용해 주세요.
 
 ```bash
-C:\Users\Name\djangogirls> python -m pip install -r requirements.txt
+~\djangogirls> python -m pip install -r requirements.txt
 ```
 
 #### 장고 설치: Linux
