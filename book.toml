@@ -1,5 +1,5 @@
 [book]
-authors = ["Lint"]
+authors = ["Osint", "PROMETA"]
 multilingual = false
 src = "src"
 title = "Django 튜토리얼"
